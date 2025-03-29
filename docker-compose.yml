@@ -11,17 +11,26 @@ services:
       - "--providers.docker.exposedbydefault=false"
       - "--providers.file.filename=/etc/traefik/dynamic.yml"
       - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
       - "--entrypoints.traefik.address=:8081"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      - "--certificatesresolvers.myresolver.acme.email=tonemail@example.com"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
       - "--api.dashboard=true"
       - "--api.insecure=true"
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
     ports:
       - "80:80"
-      - "8081:8081" 
+      - "443:443"
+      - "8081:8081"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./traefik/dynamic.yml:/etc/traefik/dynamic.yml
+      - ./Traefik/letsencrypt:/letsencrypt
     networks:
       - front
+
 
   apache:
     build:
@@ -37,6 +46,12 @@ services:
       - back
     expose:
       - "80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.apache.rule=Host(`tondomaine.com`)"
+      - "traefik.http.routers.apache.entrypoints=websecure"
+      - "traefik.http.routers.apache.tls.certresolver=myresolver"
+      - "traefik.http.services.apache.loadbalancer.server.port=80"
 
   nginx:
     build:
@@ -55,6 +70,12 @@ services:
       - back
     expose:
       - "80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.apache.rule=Host(`tondomaine.com`)"
+      - "traefik.http.routers.apache.entrypoints=websecure"
+      - "traefik.http.routers.apache.tls.certresolver=myresolver"
+      - "traefik.http.services.apache.loadbalancer.server.port=80"
 
   php-fpm:
     build: ./PHP
