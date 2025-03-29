@@ -1,0 +1,54 @@
+2023-10-12 12:16:06 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver.php on line 133
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\bake\src\Command\ModelCommand.php:87
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\RetardProf\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver.php on line 121
+Stack Trace:
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver.php:121
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver.php:131
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\bake\src\Command\ModelCommand.php:87
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\RetardProf\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\RetardProf\bin\cake.php:12
+
+2025-03-29 20:26:16 error: [RuntimeException] Migrations path `/var/www/html/config/Migrations` does not exist and cannot be created because `debug` is disabled. in /var/www/html/vendor/cakephp/migrations/src/ConfigurationTrait.php on line 101
+Stack Trace:
+- /var/www/html/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php:346
+- /var/www/html/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php:130
+- /var/www/html/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:66
+- /var/www/html/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php:64
+- /var/www/html/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /var/www/html/vendor/cakephp/migrations/src/Command/Phinx/Migrate.php:85
+- /var/www/html/vendor/symfony/console/Command/Command.php:326
+- /var/www/html/vendor/symfony/console/Application.php:1063
+- /var/www/html/vendor/symfony/console/Application.php:320
+- /var/www/html/vendor/symfony/console/Application.php:174
+- /var/www/html/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /var/www/html/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /var/www/html/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /var/www/html/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /var/www/html/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /var/www/html/bin/cake.php:12
+
