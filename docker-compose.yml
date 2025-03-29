@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+
+  traefik:
+    image: traefik
+    container_name: proxy01
+    restart: always
+    command:
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.file.filename=/etc/traefik/dynamic.yml"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.traefik.address=:8081"
+      - "--api.dashboard=true"
+      - "--api.insecure=true"
+    ports:
+      - "80:80"
+      - "8081:8081" 
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik/dynamic.yml:/etc/traefik/dynamic.yml
+    networks:
+      - front
+
+  apache:
+    build:
+      context: .
+      dockerfile: Dockerfile.apache
+    container_name: web01
+    restart: always
+    volumes:
+      - ./PHP:/var/www/html
+      - ./Apache/static:/var/www/html/static
+    networks:
+      - front
+      - back
+    expose:
+      - "80"
+
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    container_name: web02
+    restart: always
+    volumes:
+      - ./PHP:/var/www/html/php
+      - ./Nginx/static:/var/www/html/static
+      - ./Nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - php-fpm
+    networks:
+      - front
+      - back
+    expose:
+      - "80"
+
+  php-fpm:
+    build: ./PHP
+    container_name: php-fpm
+    restart: always
+    volumes:
+      - ./PHP:/var/www/html
+    ports:
+      - "9001:9000"
+    networks:
+      - front
+      - back
+
+  postgres:
+    image: postgres
+    container_name: db01
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydb
+    volumes:
+      - ./Postgres/data:/var/lib/postgresql/data
+      - ./Postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - back
+
+networks:
+  front:
+    driver: bridge
+  back:
+    driver: bridge

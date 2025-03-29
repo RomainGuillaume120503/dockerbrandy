@@ -1,0 +1,24 @@
+FROM php:8.2-apache
+
+# Installer les dépendances PHP pour CakePHP
+RUN apt-get update && apt-get install -y \
+    libicu-dev \
+    libonig-dev \
+    libzip-dev \
+    unzip \
+    git \
+    zip \
+    && docker-php-ext-install intl mbstring zip pdo pdo_mysql
+
+# Activer mod_rewrite
+RUN a2enmod rewrite
+
+# Copier la conf Apache personnalisée
+COPY apache.conf /etc/apache2/sites-available/000-default.conf
+
+# Copier le code de l'application
+COPY PHP/ /var/www/html/
+
+# Donner les bons droits
+RUN chown -R www-data:www-data /var/www/html \
+    && chmod -R 755 /var/www/html

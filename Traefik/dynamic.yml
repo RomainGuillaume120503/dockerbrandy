@@ -1,0 +1,14 @@
+http:
+  routers:
+    web:
+      rule: "Host(`localhost`)"
+      entryPoints:
+        - web
+      service: web
+
+  services:
+    web:
+      loadBalancer:
+        servers:
+          - url: "http://web01:80"
+          - url: "http://web02:80"
