@@ -10,7 +10,7 @@ use Cake\ORM\Entity;
  *
  * @property int $id
  * @property string|null $texte
- * @property bool|null $estValide
+ * @property int|null $estValide
  * @property int|null $idCreateur
  */
 class Paristextuelle extends Entity

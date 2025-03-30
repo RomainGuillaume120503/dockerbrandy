@@ -16,7 +16,7 @@ echo $this->Html->link('Nouveau Paris',['controller'=>'Paristextuelle', 'action'
 // Affichage des paris
 $paris = $parisTextuelleTable
     ->find()
-    ->where(['estValide' => true])
+    ->where(['estValide' => (int)1])
     ->order(['id' => 'DESC']);
 
 

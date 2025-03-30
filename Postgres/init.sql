@@ -1500,14 +1500,6 @@ CREATE TABLE paristextuelle (
   idCreateur INTEGER DEFAULT NULL,
   cloture INTEGER DEFAULT NULL
 );
---
--- Déchargement des données de la table paristextuelle
---
-INSERT INTO paristextuelle (id, texte, estValide, idCreateur, cloture) VALUES
-(125, 'test1', 0, 12, NULL),
-(126, 'caca', 0, 6, NULL),
-(127, 'Comment s''appelle Mr Martin?', 0, 1, NULL),
-(128, 'lmlmml', 0, 1, NULL);
 -- --------------------------------------------------------
 --
 -- Structure de la table profs

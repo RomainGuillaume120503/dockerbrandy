@@ -16311,3 +16311,2092 @@ Stack Trace:
 
 Request URL: /
 Client IP: 172.18.0.4
+2025-03-30 13:32:27 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/
+Client IP: 172.18.0.3
+2025-03-30 13:32:35 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/users/combine
+Client IP: 172.18.0.3
+2025-03-30 13:35:05 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/users/combine
+Client IP: 172.18.0.3
+2025-03-30 13:35:26 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/users/combine
+Client IP: 172.18.0.3
+2025-03-30 13:35:26 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/abfc5e04-684e-4c47-8519-1f9eb88d7153` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/abfc5e04-684e-4c47-8519-1f9eb88d7153',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/abfc5e04-684e-4c47-8519-1f9eb88d7153
+Client IP: 172.18.0.3
+2025-03-30 13:36:56 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/22c8e946-9160-4840-af4c-1a925eb963bc` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/22c8e946-9160-4840-af4c-1a925eb963bc',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/22c8e946-9160-4840-af4c-1a925eb963bc
+Client IP: 172.18.0.3
+2025-03-30 13:36:57 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/9b2415c6-d683-4dd3-9a58-d30c39b292d2` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/9b2415c6-d683-4dd3-9a58-d30c39b292d2',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/9b2415c6-d683-4dd3-9a58-d30c39b292d2
+Client IP: 172.18.0.3
+2025-03-30 13:39:58 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:39:58 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/5ed16558-1cb0-4845-bbbe-8b6af4138025` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/5ed16558-1cb0-4845-bbbe-8b6af4138025',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/5ed16558-1cb0-4845-bbbe-8b6af4138025
+Client IP: 172.18.0.3
+2025-03-30 13:40:00 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:40:00 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/6717b8ad-8672-4d2f-af69-6ca2d8748ce3` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/6717b8ad-8672-4d2f-af69-6ca2d8748ce3',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/6717b8ad-8672-4d2f-af69-6ca2d8748ce3
+Client IP: 172.18.0.3
+2025-03-30 13:40:05 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:40:05 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/6ddd5423-8677-4f98-b37d-152d084cce40` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/6ddd5423-8677-4f98-b37d-152d084cce40',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/6ddd5423-8677-4f98-b37d-152d084cce40
+Client IP: 172.18.0.3
+2025-03-30 13:40:14 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:40:15 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/928ef582-a031-44ea-8345-f246d69cb729` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/928ef582-a031-44ea-8345-f246d69cb729',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/928ef582-a031-44ea-8345-f246d69cb729
+Client IP: 172.18.0.3
+2025-03-30 13:40:15 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:40:15 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/0f225dfd-2bc7-48a1-b000-d214c466aa2d` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/0f225dfd-2bc7-48a1-b000-d214c466aa2d',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/0f225dfd-2bc7-48a1-b000-d214c466aa2d
+Client IP: 172.18.0.3
+2025-03-30 13:40:20 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:40:21 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:40:21 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/5361a09a-90bb-4a3c-a4c5-aec23d118c05` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/5361a09a-90bb-4a3c-a4c5-aec23d118c05',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/5361a09a-90bb-4a3c-a4c5-aec23d118c05
+Client IP: 172.18.0.3
+2025-03-30 13:40:21 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/8f4e963a-dd80-4300-a55f-6d09f7886832` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/8f4e963a-dd80-4300-a55f-6d09f7886832',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/8f4e963a-dd80-4300-a55f-6d09f7886832
+Client IP: 172.18.0.3
+2025-03-30 13:41:31 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Table.php:1542
+- /var/www/html/src/Controller/ParieurtextuelleController.php:92
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /parieurtextuelle/add/t/1/1
+Client IP: 172.18.0.3
+2025-03-30 13:41:32 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/ae6f5203-5233-4394-b631-44734bc561bc` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/ae6f5203-5233-4394-b631-44734bc561bc',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/ae6f5203-5233-4394-b631-44734bc561bc
+Client IP: 172.18.0.3
+2025-03-30 13:45:41 error: [InvalidArgumentException] Paramètres invalides. in /var/www/html/src/Controller/ParieurtextuelleController.php on line 93
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /parieurtextuelle/add/t/1/1
+Client IP: 172.18.0.3
+2025-03-30 13:45:41 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/2fc3784d-d7bf-4f3d-a1f9-3308bad0a179` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/2fc3784d-d7bf-4f3d-a1f9-3308bad0a179',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/2fc3784d-d7bf-4f3d-a1f9-3308bad0a179
+Client IP: 172.18.0.3
+2025-03-30 13:45:43 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:45:43 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/14075d45-4653-4201-a698-babf61cfd325` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/14075d45-4653-4201-a698-babf61cfd325',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/14075d45-4653-4201-a698-babf61cfd325
+Client IP: 172.18.0.3
+2025-03-30 13:45:44 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:45:44 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/688ddc53-e2b5-4508-bf8a-61546fcd2975` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/688ddc53-e2b5-4508-bf8a-61546fcd2975',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/688ddc53-e2b5-4508-bf8a-61546fcd2975
+Client IP: 172.18.0.3
+2025-03-30 13:45:45 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:45:45 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/dfff9299-158d-4906-bee4-89e4b7be8cf7` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/dfff9299-158d-4906-bee4-89e4b7be8cf7',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/dfff9299-158d-4906-bee4-89e4b7be8cf7
+Client IP: 172.18.0.3
+2025-03-30 13:45:45 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:45:45 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/99489eb0-fe65-489b-9da5-c0b21bb42a2c` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/99489eb0-fe65-489b-9da5-c0b21bb42a2c',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/99489eb0-fe65-489b-9da5-c0b21bb42a2c
+Client IP: 172.18.0.3
+2025-03-30 13:45:46 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:45:46 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/0d4f3d44-202d-4e81-82f4-eee91f963d28` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/0d4f3d44-202d-4e81-82f4-eee91f963d28',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/0d4f3d44-202d-4e81-82f4-eee91f963d28
+Client IP: 172.18.0.3
+2025-03-30 13:47:49 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:47:49 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/6b8d6bd7-e5c4-4a29-9f27-bef149eb03bb` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/6b8d6bd7-e5c4-4a29-9f27-bef149eb03bb',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/6b8d6bd7-e5c4-4a29-9f27-bef149eb03bb
+Client IP: 172.18.0.3
+2025-03-30 13:47:51 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/paris
+Client IP: 172.18.0.3
+2025-03-30 13:47:51 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/07c807d3-6a6b-4b54-bcb1-f100ac070fef` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/07c807d3-6a6b-4b54-bcb1-f100ac070fef',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/07c807d3-6a6b-4b54-bcb1-f100ac070fef
+Client IP: 172.18.0.3
+2025-03-30 13:47:59 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.18.0.3
+2025-03-30 13:47:59 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/e70fe4e6-da79-414e-a6fb-38a2d67fa3cd` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/e70fe4e6-da79-414e-a6fb-38a2d67fa3cd',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/e70fe4e6-da79-414e-a6fb-38a2d67fa3cd
+Client IP: 172.18.0.3
+2025-03-30 13:48:02 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/1096b50e-d167-48d1-b937-5fb1f1d841cb` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/1096b50e-d167-48d1-b937-5fb1f1d841cb',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/1096b50e-d167-48d1-b937-5fb1f1d841cb
+Client IP: 172.18.0.3
+2025-03-30 13:48:03 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/
+Client IP: 172.18.0.3
+2025-03-30 13:48:04 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/41334cc3-de06-4fe9-830f-c77e68d2a64b` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/41334cc3-de06-4fe9-830f-c77e68d2a64b',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/41334cc3-de06-4fe9-830f-c77e68d2a64b
+Client IP: 172.18.0.3
+2025-03-30 13:50:39 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/806672ad-626f-4a22-9a9a-f2dd087e6dec` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/806672ad-626f-4a22-9a9a-f2dd087e6dec',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/806672ad-626f-4a22-9a9a-f2dd087e6dec
+Client IP: 172.18.0.3
+2025-03-30 13:50:46 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/40a1616d-2dee-4212-8078-4d1226772154` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/40a1616d-2dee-4212-8078-4d1226772154',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/40a1616d-2dee-4212-8078-4d1226772154
+Client IP: 172.18.0.3
+2025-03-30 13:50:48 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Referer URL: https://localhost/
+Client IP: 172.18.0.3
+2025-03-30 13:50:48 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/b0596ea6-d0bd-4279-a01f-8d018921e8c5` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/b0596ea6-d0bd-4279-a01f-8d018921e8c5',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/b0596ea6-d0bd-4279-a01f-8d018921e8c5
+Client IP: 172.18.0.3
+2025-03-30 13:54:39 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/e1d28742-aad5-4dba-86d5-d36182eed5e3` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/e1d28742-aad5-4dba-86d5-d36182eed5e3',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/e1d28742-aad5-4dba-86d5-d36182eed5e3
+Client IP: 172.18.0.3
+2025-03-30 13:54:47 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.18.0.3
+2025-03-30 13:54:48 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/01de1994-0781-4ae3-bdb7-140a16ec8b74` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/01de1994-0781-4ae3-bdb7-140a16ec8b74',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/01de1994-0781-4ae3-bdb7-140a16ec8b74
+Client IP: 172.18.0.3
+2025-03-30 14:01:58 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/9c1e1b56-8e70-4a62-add5-de5a3ad090f9` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/9c1e1b56-8e70-4a62-add5-de5a3ad090f9',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/9c1e1b56-8e70-4a62-add5-de5a3ad090f9
+Client IP: 172.19.0.2
+2025-03-30 14:02:06 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.19.0.2
+2025-03-30 14:02:07 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/688ec192-0c21-4a29-a4c8-f8bff37e6d33` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/688ec192-0c21-4a29-a4c8-f8bff37e6d33',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/688ec192-0c21-4a29-a4c8-f8bff37e6d33
+Client IP: 172.19.0.2
+2025-03-30 14:02:09 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.19.0.2
+2025-03-30 14:02:10 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/865fba3c-4127-4c6d-8d2c-328d98030a79` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/865fba3c-4127-4c6d-8d2c-328d98030a79',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/865fba3c-4127-4c6d-8d2c-328d98030a79
+Client IP: 172.19.0.2
+2025-03-30 14:02:10 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.19.0.2
+2025-03-30 14:02:10 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.19.0.2
+2025-03-30 14:02:10 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.19.0.2
+2025-03-30 14:02:10 error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "t"
+CONTEXT:  unnamed portal parameter $1 = '...' in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php on line 180
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php:357
+- /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:978
+- /var/www/html/vendor/cakephp/cakephp/src/ORM/Query.php:928
+- /var/www/html/templates/Users/paris_textuelle.php:23
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1220
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:1177
+- /var/www/html/vendor/cakephp/cakephp/src/View/View.php:808
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:774
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:557
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /users/paris-textuelle
+Client IP: 172.19.0.2
+2025-03-30 14:02:11 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/46373bc2-13c3-458e-9e98-e0fbe3c363be` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/46373bc2-13c3-458e-9e98-e0fbe3c363be',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/46373bc2-13c3-458e-9e98-e0fbe3c363be
+Client IP: 172.19.0.2
+2025-03-30 14:02:11 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/a8ee8871-0b75-4fd5-8cb3-950f6c63c9a3` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/a8ee8871-0b75-4fd5-8cb3-950f6c63c9a3',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/a8ee8871-0b75-4fd5-8cb3-950f6c63c9a3
+Client IP: 172.19.0.2

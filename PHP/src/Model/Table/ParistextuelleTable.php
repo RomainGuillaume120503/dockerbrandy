@@ -56,7 +56,7 @@ class ParistextuelleTable extends Table
             ->allowEmptyString('texte');
 
         $validator
-            ->boolean('estValide')
+            ->integer('estValide')
             ->allowEmptyString('estValide');
 
         $validator

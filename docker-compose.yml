@@ -32,7 +32,6 @@ services:
       - "traefik.enable=true"
     volumes:
       - ./PHP:/var/www/html
-      - ./Apache/static:/var/www/html/static
     networks:
       - front
       - back
@@ -50,8 +49,7 @@ services:
       - "traefik.enable=true"
     volumes:
       - ./PHP:/var/www/html/php
-      - ./Nginx/static:/var/www/html/static
-      - ./Nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
     networks:
       - front
       - back
