@@ -1,19 +1,39 @@
+tls:
+  certificates:
+    - certFile: "/certs/selfsigned.crt"
+      keyFile: "/certs/selfsigned.key"
+
 http:
-  middlewares:
-    redirect-to-https:
-      redirectScheme:
-        scheme: https
-        permanent: true
   routers:
     web:
       rule: "Host(`localhost`)"
       entryPoints:
         - web
+      middlewares:
+        - redirect-to-https
       service: web
+
+    websecure:
+      rule: "Host(`localhost`)"
+      entryPoints:
+        - websecure
+      service: web
+      tls: true
+
+  middlewares:
+    redirect-to-https:
+      redirectScheme:
+        scheme: https
+        permanent: true
 
   services:
     web:
       loadBalancer:
+        sticky:
+          cookie:
+            name: "MYSESSION"
+            httpOnly: true
+            secure: true
         servers:
           - url: "http://web01:80"
           - url: "http://web02:80"
