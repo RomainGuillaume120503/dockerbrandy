@@ -18505,3 +18505,141 @@ Stack Trace:
 Request URL: /favicon.ico
 Referer URL: https://localhost/users/login?redirect=%2F
 Client IP: 172.28.0.3
+2025-04-07 18:28:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/login?redirect=%2F
+Client IP: 172.28.0.3
+2025-04-07 18:28:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.3
+2025-04-07 18:28:18 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/login?redirect=%2F
+Client IP: 172.28.0.3
+2025-04-07 18:28:18 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.3

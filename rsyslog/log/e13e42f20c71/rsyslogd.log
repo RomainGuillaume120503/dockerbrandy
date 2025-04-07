@@ -1,0 +1,5 @@
+Apr  7 18:37:22 e13e42f20c71 rsyslogd: environment variable TZ is not set, auto correcting this to TZ=/etc/localtime [v8.2102.0 try https://www.rsyslog.com/e/2442 ]
+Apr  7 18:37:22 e13e42f20c71 rsyslogd: warning during parsing file /etc/rsyslog.conf, on or before line 93: STOP is followed by unreachable statements!  [v8.2102.0 try https://www.rsyslog.com/e/2357 ]
+Apr  7 18:37:22 e13e42f20c71 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 18:37:22 e13e42f20c71 rsyslogd: activation of module imklog failed [v8.2102.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 18:37:22 e13e42f20c71 rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="1" x-info="https://www.rsyslog.com"] start

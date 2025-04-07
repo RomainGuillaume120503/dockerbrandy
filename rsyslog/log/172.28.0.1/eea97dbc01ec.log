@@ -1,0 +1,4 @@
+Apr  7 18:33:09 172.28.0.1 eea97dbc01ec[153]: #033[90m2025-04-07T18:33:09Z#033[0m #033[31mERR#033[0m #033[36merror=#033[0m#033[31m#033[1m"accept tcp [::]:80: use of closed network connection"#033[0m#033[0m #033[36mentryPointName=#033[0mweb
+Apr  7 18:33:09 172.28.0.1 eea97dbc01ec[153]: #033[90m2025-04-07T18:33:09Z#033[0m #033[31mERR#033[0m #033[36merror=#033[0m#033[31m#033[1m"accept tcp [::]:443: use of closed network connection"#033[0m#033[0m #033[36mentryPointName=#033[0mwebsecure
+Apr  7 18:33:09 172.28.0.1 eea97dbc01ec[153]: #033[90m2025-04-07T18:33:09Z#033[0m #033[31mERR#033[0m #033[36merror=#033[0m#033[31m#033[1m"close tcp [::]:443: use of closed network connection"#033[0m#033[0m #033[36mentryPointName=#033[0mwebsecure
+Apr  7 18:33:09 172.28.0.1 eea97dbc01ec[153]: #033[90m2025-04-07T18:33:09Z#033[0m #033[31mERR#033[0m #033[36merror=#033[0m#033[31m#033[1m"close tcp [::]:80: use of closed network connection"#033[0m#033[0m #033[36mentryPointName=#033[0mweb

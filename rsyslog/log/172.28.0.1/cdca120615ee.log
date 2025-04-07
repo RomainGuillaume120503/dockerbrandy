@@ -11,3 +11,5 @@ Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.312 UTC [29] L
 Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.321 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
 Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.341 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.003 s, total=0.024 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/19A44B0, redo lsn=0/19A44B0
 Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.351 UTC [1] LOG:  database system is ready to accept connections
+Apr  7 18:33:09 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:33:09.523 UTC [1] LOG:  received fast shutdown request
+Apr  7 18:33:09 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:33:09.540 UTC [1] LOG:  aborting any active transactions

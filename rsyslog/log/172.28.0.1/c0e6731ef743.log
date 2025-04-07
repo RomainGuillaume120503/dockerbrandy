@@ -41,3 +41,77 @@ Apr  7 18:25:28 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:25:
 Apr  7 18:25:30 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:25:30 [warn] 35#35: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.28.0.3, server: nginx.localhost, request: "GET /img/edna.png HTTP/1.1", upstream: "fastcgi://172.29.0.3:9000", host: "localhost"
 Apr  7 18:25:30 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:25:30 +0000] "GET /img/edna.png HTTP/1.1" 404 1157258 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
 Apr  7 18:25:32 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:25:32 +0000] "GET /favicon.ico HTTP/1.1" 404 1216688 "https://localhost/users/login?redirect=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:01 +0000] "GET / HTTP/1.1" 302 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:01 +0000] "GET /users/login?redirect=%2F HTTP/1.1" 200 7822 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:01 +0000] "GET /debug_kit/js/inject-iframe.js?1743291087 HTTP/1.1" 200 4094 "https://localhost/users/login?redirect=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:28:01 [warn] 36#36: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.28.0.3, server: nginx.localhost, request: "GET /css/cake.css HTTP/1.1", upstream: "fastcgi://172.29.0.3:9000", host: "localhost", referrer: "https://localhost/users/login?redirect=%2F"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:01 +0000] "GET /css/cake.css HTTP/1.1" 404 1161175 "https://localhost/users/login?redirect=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:28:01 [warn] 29#29: *13 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.28.0.3, server: nginx.localhost, request: "GET /img/edna.png HTTP/1.1", upstream: "fastcgi://172.29.0.3:9000", host: "localhost"
+Apr  7 18:28:01 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:01 +0000] "GET /img/edna.png HTTP/1.1" 404 1156706 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:18 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:18 +0000] "GET / HTTP/1.1" 302 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:18 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:18 +0000] "GET /users/login?redirect=%2F HTTP/1.1" 200 7822 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:18 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:18 +0000] "GET /css/cake.css HTTP/1.1" 404 1172790 "https://localhost/users/login?redirect=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:18 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:18 +0000] "GET /debug_kit/js/inject-iframe.js?1743291087 HTTP/1.1" 200 4100 "https://localhost/users/login?redirect=%2F" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:28:18 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:28:18 [warn] 40#40: *21 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.28.0.3, server: nginx.localhost, request: "GET /img/edna.png HTTP/1.1", upstream: "fastcgi://172.29.0.3:9000", host: "localhost"
+Apr  7 18:28:18 172.28.0.1 c0e6731ef743[153]: 172.28.0.3 - - [07/Apr/2025:18:28:18 +0000] "GET /img/edna.png HTTP/1.1" 404 1167136 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" "172.28.0.1"
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 32#32: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 32#32: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 29#29: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 30#30: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 30#30: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 30#30: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 45#45: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 45#45: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 34#34: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 34#34: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 45#45: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 42#42: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 34#34: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 42#42: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 36#36: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 29#29: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 36#36: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 36#36: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 29#29: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 35#35: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 35#35: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 41#41: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 41#41: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 41#41: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 33#33: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 33#33: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 33#33: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 31#31: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 48#48: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 31#31: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 43#43: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 48#48: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 37#37: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 43#43: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 37#37: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 37#37: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 38#38: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 38#38: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 40#40: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 40#40: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 38#38: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 47#47: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 44#44: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 44#44: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 47#47: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 47#47: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 32#32: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 35#35: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 43#43: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 48#48: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 46#46: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 46#46: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 46#46: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 39#39: gracefully shutting down
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 39#39: exiting
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 44#44: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 39#39: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 31#31: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 40#40: exit
+Apr  7 18:33:09 172.28.0.1 c0e6731ef743[153]: 2025/04/07 18:33:09 [notice] 42#42: exit

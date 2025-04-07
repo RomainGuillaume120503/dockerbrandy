@@ -12,12 +12,17 @@ http:
       middlewares:
         - redirect-to-https
       service: web
-
     websecure:
-      rule: "Host(`localhost`)"
+      rule: "Host(`reseau.localhost`)"
       entryPoints:
         - websecure
       service: web
+      tls: true
+    traefik-dashboard:
+      rule: "Host(`traefik.localhost`)"
+      entryPoints:
+        - websecure
+      service: api@internal
       tls: true
 
   middlewares:
