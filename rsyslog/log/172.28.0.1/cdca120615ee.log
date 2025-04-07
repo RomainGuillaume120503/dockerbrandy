@@ -1,0 +1,13 @@
+Apr  7 18:24:11 172.28.0.1 cdca120615ee[153]: PostgreSQL Database directory appears to contain a database; Skipping initialization
+Apr  7 18:24:11 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:11.658 UTC [1] LOG:  starting PostgreSQL 17.4 (Debian 17.4-1.pgdg120+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+Apr  7 18:24:11 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:11.658 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+Apr  7 18:24:11 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:11.658 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+Apr  7 18:24:11 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:11.665 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+Apr  7 18:24:11 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:11.673 UTC [29] LOG:  database system was interrupted; last known up at 2025-03-30 14:05:26 UTC
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.306 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.312 UTC [29] LOG:  redo starts at 0/19A4370
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.312 UTC [29] LOG:  invalid record length at 0/19A44B0: expected at least 24, got 0
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.312 UTC [29] LOG:  redo done at 0/19A4478 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.321 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.341 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.003 s, total=0.024 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/19A44B0, redo lsn=0/19A44B0
+Apr  7 18:24:13 172.28.0.1 cdca120615ee[153]: 2025-04-07 18:24:13.351 UTC [1] LOG:  database system is ready to accept connections
