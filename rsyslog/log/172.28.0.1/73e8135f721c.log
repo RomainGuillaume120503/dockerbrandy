@@ -1,0 +1,8 @@
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: PostgreSQL Database directory appears to contain a database; Skipping initialization
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:08:06.125 UTC [1] LOG:  starting PostgreSQL 17.4 (Debian 17.4-1.pgdg120+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:08:06.331 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:08:06.331 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:08:06.343 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:08:06.353 UTC [29] LOG:  database system was shut down at 2025-04-07 19:07:12 UTC
+Apr  7 19:08:06 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:08:06.362 UTC [1] LOG:  database system is ready to accept connections
+Apr  7 19:09:00 172.28.0.1 73e8135f721c[153]: 2025-04-07 19:09:00.848 UTC [1] LOG:  received fast shutdown request

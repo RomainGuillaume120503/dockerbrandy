@@ -5,3 +5,8 @@ Apr  7 18:37:22 172.28.0.1 63a09369eb28[153]: 2025-04-07 18:37:22.856 UTC [1] LO
 Apr  7 18:37:22 172.28.0.1 63a09369eb28[153]: 2025-04-07 18:37:22.863 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
 Apr  7 18:37:22 172.28.0.1 63a09369eb28[153]: 2025-04-07 18:37:22.872 UTC [29] LOG:  database system was shut down at 2025-04-07 18:37:09 UTC
 Apr  7 18:37:22 172.28.0.1 63a09369eb28[153]: 2025-04-07 18:37:22.879 UTC [1] LOG:  database system is ready to accept connections
+Apr  7 18:42:52 172.28.0.1 63a09369eb28[153]: 2025-04-07 18:42:52.798 UTC [27] LOG:  checkpoint starting: time
+Apr  7 18:42:52 172.28.0.1 63a09369eb28[153]: 2025-04-07 18:42:52.836 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.006 s, total=0.039 s; sync files=2, longest=0.004 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/19A4718, redo lsn=0/19A46C0
+Apr  7 19:04:44 172.28.0.1 63a09369eb28[153]: 2025-04-07 19:04:44.445 UTC [27] LOG:  checkpoint starting: time
+Apr  7 19:04:44 172.28.0.1 63a09369eb28[153]: 2025-04-07 19:04:44.597 UTC [27] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.010 s, total=0.152 s; sync files=2, longest=0.005 s, average=0.005 s; distance=2 kB, estimate=2 kB; lsn=0/19A5140, redo lsn=0/19A50E8
+Apr  7 19:07:12 172.28.0.1 63a09369eb28[153]: 2025-04-07 19:07:12.824 UTC [1] LOG:  received fast shutdown request

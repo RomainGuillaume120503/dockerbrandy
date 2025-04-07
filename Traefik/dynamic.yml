@@ -6,7 +6,7 @@ tls:
 http:
   routers:
     web:
-      rule: "Host(`localhost`)"
+      rule: "Host(`reseau.localhost`)"
       entryPoints:
         - web
       middlewares:

@@ -18643,3 +18643,879 @@ Stack Trace:
 
 Request URL: /img/edna.png
 Client IP: 172.28.0.3
+2025-04-07 19:06:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://reseau.localhost/users/login?redirect=%2F
+Client IP: 172.28.0.2
+2025-04-07 19:06:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Favicon.ico',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: https://reseau.localhost/users/login?redirect=%2F
+Client IP: 172.28.0.2
+2025-04-07 19:10:34 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/login?redirect=%2F
+Client IP: 172.28.0.4
+2025-04-07 19:10:34 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:10:34 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Favicon.ico',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:333
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: https://localhost/users/login?redirect=%2F
+Client IP: 172.28.0.4
+2025-04-07 19:11:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/
+Client IP: 172.28.0.4
+2025-04-07 19:11:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:11:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/
+Client IP: 172.28.0.4
+2025-04-07 19:11:42 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:11:43 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/797e1e38-79b3-41c6-889d-f5c6da0534e2` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/797e1e38-79b3-41c6-889d-f5c6da0534e2',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/797e1e38-79b3-41c6-889d-f5c6da0534e2
+Client IP: 172.28.0.4
+2025-04-07 19:11:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/
+Client IP: 172.28.0.4
+2025-04-07 19:12:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/login?redirect=%2F
+Client IP: 172.28.0.4
+2025-04-07 19:12:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:12:01 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/0f87b4bb-459d-42c1-907b-3c794a45c02e` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/0f87b4bb-459d-42c1-907b-3c794a45c02e',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/0f87b4bb-459d-42c1-907b-3c794a45c02e
+Client IP: 172.28.0.4
+2025-04-07 19:12:05 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/
+Client IP: 172.28.0.4
+2025-04-07 19:12:05 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:12:06 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/4fed4b90-26dc-49f9-9b00-0a5ec698ee10` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/4fed4b90-26dc-49f9-9b00-0a5ec698ee10',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/4fed4b90-26dc-49f9-9b00-0a5ec698ee10
+Client IP: 172.28.0.4
+2025-04-07 19:12:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/users/login?redirect=%2F
+Client IP: 172.28.0.4
+2025-04-07 19:12:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:12:29 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/f9296b02-3a5e-4451-97c3-fa7c8bd15781` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/f9296b02-3a5e-4451-97c3-fa7c8bd15781',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/f9296b02-3a5e-4451-97c3-fa7c8bd15781
+Client IP: 172.28.0.4
+2025-04-07 19:12:35 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/
+Client IP: 172.28.0.4
+2025-04-07 19:12:35 error: [Cake\Http\Exception\MissingControllerException] Controller class Img could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Img',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /img/edna.png
+Client IP: 172.28.0.4
+2025-04-07 19:12:36 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/8418bff6-d8fc-46f6-a42c-3fd898138d25` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/8418bff6-d8fc-46f6-a42c-3fd898138d25',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/8418bff6-d8fc-46f6-a42c-3fd898138d25
+Client IP: 172.28.0.4
+2025-04-07 19:12:52 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Css',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php:129
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /css/cake.css
+Referer URL: https://localhost/
+Client IP: 172.28.0.4
+2025-04-07 19:12:59 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/88616c2c-6cb7-4a90-bd05-d6a9bf5afce4` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/88616c2c-6cb7-4a90-bd05-d6a9bf5afce4',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/88616c2c-6cb7-4a90-bd05-d6a9bf5afce4
+Client IP: 172.28.0.4
+2025-04-07 19:13:16 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/0406de03-fed7-4f82-a675-735b2030e826` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/0406de03-fed7-4f82-a675-735b2030e826',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/0406de03-fed7-4f82-a675-735b2030e826
+Client IP: 172.28.0.4
+2025-04-07 19:18:12 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/aa8488d8-b53c-4fc7-a4f7-a4dc3587ab2e` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/aa8488d8-b53c-4fc7-a4f7-a4dc3587ab2e',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/aa8488d8-b53c-4fc7-a4f7-a4dc3587ab2e
+Client IP: 172.28.0.3
+2025-04-07 19:18:17 error: [Authorization\Exception\AuthorizationRequiredException] The request to `/debug-kit/toolbar/862cad33-50d3-4b58-8e62-a0d16cf0a183` did not apply any authorization checks. in /var/www/html/vendor/cakephp/authorization/src/Middleware/AuthorizationMiddleware.php on line 132
+Exception Attributes: array (
+  'url' => '/debug-kit/toolbar/862cad33-50d3-4b58-8e62-a0d16cf0a183',
+)
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:187
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/862cad33-50d3-4b58-8e62-a0d16cf0a183
+Client IP: 172.28.0.3
